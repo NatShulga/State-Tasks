@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валидатор RSS-ссылок</title>
+    <style>
+        /* Стили для красивого отображения */
+        .valid {
+            border: 8px solid green;
+        }
+
+        .invalid {
+            border: 5px solid red;
+        }
+
+        .error-message {
+            color: rgb(181, 66, 103);
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Валидатор RSS-ссылок</h1>
+
+    <label for="rssLink">Введите RSS-ссылку:</label>
+    <input type="text" id="rssLink" placeholder="http://example.com/rss.xml">
+    <button id="loadButton">Загрузить</button>
+    <p id="errorMessage" class="error-message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
