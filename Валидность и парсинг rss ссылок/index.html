@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Валидатор RSS-ссылок</title>
     <style>
-        /* Стили для красивого отображения */
         .valid {
             border: 8px solid green;
         }
@@ -28,7 +27,12 @@
     <input type="text" id="rssLink" placeholder="http://example.com/rss.xml">
     <button id="loadButton">Загрузить</button>
     <p id="errorMessage" class="error-message"></p>
-
+    <div id="resultDiv"></div>
+    <h2>Фиды:</h2>
+    <div id="feedsContainer">
+        <h3></h3>
+        <p></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
